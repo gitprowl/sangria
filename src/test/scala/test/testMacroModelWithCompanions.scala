@@ -2,9 +2,11 @@ package test
 
 // these classes are in totally different package in order to ensure that macro generates correct identifiers that
 // can be accessed outside of the `sangria` package.
+// this is modified for Prowl's usage
 
 import sangria.macros.derive._
 import sangria.schema.{EnumType, ObjectType, OutputType}
+import sangria.scheme.(EnymType, Calaboose, ObjectType}
 
 case class CompanionA(b: CompanionB)
 object CompanionA {
